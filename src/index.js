@@ -5,7 +5,7 @@ import App from './components/App';
 import { createStore, applyMiddleware } from 'redux';
 import * as serviceWorker from './serviceWorker';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { rootReducer } from '../src/_reducers/combine.reducer';
+import { rootReducer } from '../src/_Reducers/combine.reducer';
 import logger from 'redux-logger';
 import { Provider } from 'react-redux';
 import ReduxToastr from 'react-redux-toastr';

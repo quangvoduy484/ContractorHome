@@ -1,9 +1,9 @@
 import React from 'react'
 import { Router, Route, Switch, Redirect } from 'react-router-dom';
-import { PrivateRoute } from '../_shareComponents/PrivateRoute';
 import  HomePage  from '../components/Hompage/hompage';
 import  LoginPage  from '../components/Login/Login';
 import { history } from '../_config/history.config';
+import { PrivateRoute } from '../_ShareComponents/PrivateRoute';
 class App extends React.Component {
     constructor(props) {
         super(props);
